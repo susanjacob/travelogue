@@ -3,3 +3,5 @@
 
 en:
   hello: "Hello world"
+  user:
+    unauthorised: 'User %{email} is unauthorised to access this post'

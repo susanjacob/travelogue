@@ -8,6 +8,8 @@ gem 'rails', '3.2.17'
 # Use MySQL for database
 gem 'mysql2', '~> 0.3.20'
 
+# Use devise for authentication
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.

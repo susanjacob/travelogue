@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+<table>
+  <tr>
+  	<td>
+      <label>Title: </label>
+      <%= @post[:title] %>
+    </td>
+   </tr>
+   <tr>
+  	<td>
+      <label>URL: </label>
+      <%= @post[:url] %>
+    </td>
+   </tr>
+</table>
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
